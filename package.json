@@ -1,0 +1,34 @@
+{
+  "name": "timezone-api",
+  "version": "1.0.0",
+  "description": "Simple DST-aware Time Zone API — no auth, no database. Ready to deploy.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.8.0",
+    "helmet": "^7.0.0",
+    "moment-timezone": "^0.5.43",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "timezone",
+    "dst",
+    "api",
+    "express",
+    "moment-timezone"
+  ],
+  "author": "Emma",
+  "license": "MIT"
+}
